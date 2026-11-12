@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CardStart — карты банков и займы онлайн на одной странице</title>
+<meta name="description" content="Дебетовые и кредитные карты банков, займы в МФО — предложения на одной странице. Сравните условия и оформите продукт на официальном сайте партнёра.">
+<meta name="theme-color" content="#211148">
+<meta name="color-scheme" content="light">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CardStart — карты банков и займы онлайн">
+<meta property="og:description" content="Дебетовые и кредитные карты, займы на карту — предложения банков и МФО на одной странице.">
+<meta property="og:image" content="https://daviddavidso.github.io/portmone/img/og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/montserrat-cyrillic-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/montserrat-cyrillic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/montserrat.css?v=20261113061045">
+<link rel="stylesheet" href="css/style.css?v=20261113061045">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -8"/><path d="M3 10l18 0"/><path d="M7 15l.01 0"/><path d="M11 15l2 0"/></symbol>
+  <symbol id="i-cash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -8"/><path d="M18 12h.01"/><path d="M6 12h.01"/></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12"/><path d="M20 12v4h-4a2 2 0 0 1 0 -4h4"/></symbol>
+  <symbol id="i-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M9 12l2 2l4 -4"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 7l-10 10"/><path d="M8 7l9 0l0 9"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l0 14"/><path d="M18 13l-6 6"/><path d="M6 13l6 6"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6l6 -6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6l16 0"/><path d="M4 12l16 0"/><path d="M4 18l16 0"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"/></symbol>
+  <symbol id="i-bank" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l18 0"/><path d="M3 10l18 0"/><path d="M5 6l7 -3l7 3"/><path d="M4 10l0 11"/><path d="M20 10l0 11"/><path d="M8 14l0 3"/><path d="M12 14l0 3"/><path d="M16 14l0 3"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/><path d="M11 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/><path d="M12 12l0 2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 0 5.998 8.485m12.002 -8.485a9 9 0 1 0 -18 0"/><path d="M12 7v5"/><path d="M12 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h2"/><path d="M18 15v2a1 1 0 0 0 1 1h1"/><path d="M21 15v6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M18.5 18.5l2.5 2.5"/><path d="M4 6h16"/><path d="M4 12h4"/><path d="M4 18h4"/></symbol>
+  <symbol id="i-click" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l3 0"/><path d="M12 3l0 3"/><path d="M7.8 7.8l-2.2 -2.2"/><path d="M16.2 7.8l2.2 -2.2"/><path d="M7.8 16.2l-2.2 2.2"/><path d="M12 12l9 3l-4 2l-2 4l-3 -9"/></symbol>
+  <symbol id="i-forms" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"/><path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2"/><path d="M9 12h6"/><path d="M9 16h6"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"/><path d="M3 9l4 0"/></symbol>
+  <symbol id="i-free" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21v-16m2 -2h10a2 2 0 0 1 2 2v10m0 4.01v1.99l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"/><path d="M11 7l4 0"/><path d="M9 11l2 0"/><path d="M13 15l2 0"/><path d="M15 11l0 .01"/><path d="M3 3l18 18"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11.5 21h-5.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/><path d="M15 19l2 2l4 -4"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/><path d="M14 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4"/></symbol>
+  <symbol id="i-coins" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14c0 1.657 2.686 3 6 3s6 -1.343 6 -3s-2.686 -3 -6 -3s-6 1.343 -6 3"/><path d="M9 14v4c0 1.656 2.686 3 6 3s6 -1.344 6 -3v-4"/><path d="M3 6c0 1.072 1.144 2.062 3 2.598s4.144 .536 6 0c1.856 -.536 3 -1.526 3 -2.598c0 -1.072 -1.144 -2.062 -3 -2.598s-4.144 -.536 -6 0c-1.856 .536 -3 1.526 -3 2.598"/><path d="M3 6v10c0 .888 .772 1.45 2 2"/><path d="M3 11c0 .888 .772 1.45 2 2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14"/><path d="M11 4h2"/><path d="M12 17v.01"/></symbol>
+  <symbol id="i-cardpay" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19h-6a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5"/><path d="M3 10h18"/><path d="M16 19h6"/><path d="M19 16l3 3l-3 3"/><path d="M7.005 15h.005"/><path d="M11 15h2"/></symbol>
+</svg>
+
+<a class="skip" href="#offers">К предложениям</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="#top" aria-label="CardStart — в начало страницы">
+      <span class="brand__mark" aria-hidden="true"><svg class="ico"><use href="#i-card"/></svg></span>
+      <span class="brand__word" data-brand>CardStart</span>
+    </a>
+
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav">
+      <span class="burger__text">Меню</span>
+      <span class="burger__ico" aria-hidden="true">
+        <svg class="ico burger__open" focusable="false"><use href="#i-menu"/></svg>
+        <svg class="ico burger__close" focusable="false"><use href="#i-close"/></svg>
+      </span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Основное">
+      <ul class="nav__list" id="nav-list" role="list">
+        <li data-nav-cat><a href="#debit">Дебетовые карты</a></li>
+        <li data-nav-cat><a href="#credit">Кредитные карты</a></li>
+        <li data-nav-cat><a href="#mfo">МФО</a></li>
+        <li data-nav-static><a href="#steps">Как оформить</a></li>
+        <li><a href="#faq">Вопросы</a></li>
+      </ul>
+      <p class="nav__tg" data-telegram hidden><a class="tglink" href="https://t.me/"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tg"/></svg><span>Telegram <span class="vh">— связаться: </span><span data-tg-name class="tglink__name"></span></span></a></p>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero dark" aria-labelledby="hero-title">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <p class="hero__flag reveal"><span data-tagline>47 предложений банков и МФО</span></p>
+        <h1 class="h1 reveal" id="hero-title">Дебетовые и кредитные карты, <b>займы на&nbsp;карту</b>&nbsp;— предложения банков и МФО в&nbsp;одном месте</h1>
+        <ul class="checks reveal" role="list">
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Заявка онлайн — на официальном сайте банка или МФО</li>
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Подбор бесплатный, условия как у партнёра</li>
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span><span data-firms>38 компаний</span> на витрине: банки и МФО</span></li>
+        </ul>
+        <p class="hero__cta reveal">
+          <a class="btn btn--lg" href="#debit" data-first-cat>Выбрать карту</a>
+          <a class="btn btn--ghost btn--lg" href="#mfo" data-mfo-link>Займы онлайн</a>
+        </p>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="pcard pcard--alfa">
+          <span class="pcard__sheen"></span>
+          <span class="pcard__top"><img src="img/logos/alfabank.png" alt="" width="34" height="34"><span class="pcard__bank">Альфа-Банк</span></span>
+          <span class="pcard__chip"></span>
+          <svg class="pcard__nfc" viewBox="0 0 24 24"><path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5.2 9.6a3.5 3.5 0 0 1 0 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="pcard__num">2200 •••• •••• 4532</span>
+          <span class="pcard__row"><span class="pcard__name">CARDHOLDER NAME</span><span class="pcard__kind">DEBIT</span></span>
+        </div>
+        <div class="pcard pcard--tbank">
+          <span class="pcard__sheen"></span>
+          <span class="pcard__top"><img src="img/logos/tbank.png" alt="" width="34" height="34"><span class="pcard__bank">Т-Банк Black</span></span>
+          <span class="pcard__chip"></span>
+          <svg class="pcard__nfc" viewBox="0 0 24 24"><path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5.2 9.6a3.5 3.5 0 0 1 0 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="pcard__num">2200 •••• •••• 3100</span>
+          <span class="pcard__row"><span class="pcard__name">CARDHOLDER NAME</span><span class="pcard__kind">DEBIT</span></span>
+        </div>
+        <div class="pcard pcard--vtb">
+          <span class="pcard__sheen"></span>
+          <span class="pcard__top"><img src="img/logos/vtb.png" alt="" width="34" height="34"><span class="pcard__bank">ВТБ</span></span>
+          <span class="pcard__chip"></span>
+          <svg class="pcard__nfc" viewBox="0 0 24 24"><path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5.2 9.6a3.5 3.5 0 0 1 0 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="pcard__num">2200 •••• •••• 1048</span>
+          <span class="pcard__row"><span class="pcard__name">CARDHOLDER NAME</span><span class="pcard__kind">МИР</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec kinds" aria-labelledby="kinds-title">
+    <div class="wrap">
+      <h2 class="h2" id="kinds-title">Что нужно оформить?</h2>
+      <ul class="kinds__list" id="kinds" role="list">
+        <li><a class="kind" href="#debit"><span class="kind__ico" aria-hidden="true"><svg class="ico"><use href="#i-card"/></svg></span><span class="kind__body"><span class="kind__title">Дебетовые карты</span><span class="vh">,</span><span class="kind__text">Кешбэк, процент на остаток, оплата телефоном.</span><span class="kind__count">15 предложений</span></span></a></li>
+        <li><a class="kind" href="#credit"><span class="kind__ico" aria-hidden="true"><svg class="ico"><use href="#i-cardpay"/></svg></span><span class="kind__body"><span class="kind__title">Кредитные карты</span><span class="vh">,</span><span class="kind__text">Кредитный лимит и льготный период.</span><span class="kind__count">8 предложений</span></span></a></li>
+        <li><a class="kind" href="#mfo"><span class="kind__ico" aria-hidden="true"><svg class="ico"><use href="#i-cash"/></svg></span><span class="kind__body"><span class="kind__title">МФО</span><span class="vh">,</span><span class="kind__text">Займы на карту без визита в офис.</span><span class="kind__count">24 предложения</span></span></a></li>
+      </ul>
+
+      <div class="partners">
+        <div class="partners__head">
+          <h2 class="h3" id="partners-title">Банки на витрине</h2>
+          <p class="partners__lead">Заявку принимает сам банк или МФО — на своём официальном сайте. Мы только собрали предложения вместе, чтобы их было удобно сравнить.</p>
+        </div>
+        <ul class="partners__list" id="partners" role="list" aria-labelledby="partners-title"></ul>
+        <p class="partners__more" id="partners-more" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="catalog" id="offers" tabindex="-1">
+    <div id="catalog"></div>
+    <noscript>
+      <div class="wrap"><p class="noscript">Чтобы увидеть предложения, включите JavaScript в настройках браузера.</p></div>
+    </noscript>
+  </div>
+
+  <section class="sec steps" id="steps" aria-labelledby="steps-title">
+    <div class="wrap">
+      <h2 class="h2 reveal" id="steps-title">4 простых шага — и карта или деньги у вас</h2>
+      <ol class="steps__list reveal" role="list">
+        <li class="step">
+          <span class="step__ico" aria-hidden="true"><span class="step__n">1</span><svg class="ico"><use href="#i-search"/></svg></span>
+          <h3 class="step__title"><span class="vh">Шаг 1. </span>Выберите предложение</h3>
+          <p class="step__text">Сравните карты и займы в разделах витрины — условия собраны в карточках.</p>
+        </li>
+        <li class="step">
+          <span class="step__ico" aria-hidden="true"><span class="step__n">2</span><svg class="ico"><use href="#i-click"/></svg></span>
+          <h3 class="step__title"><span class="vh">Шаг 2. </span>Перейдите к партнёру</h3>
+          <p class="step__text">Кнопка на карточке откроет официальный сайт банка или МФО в новой вкладке.</p>
+        </li>
+        <li class="step">
+          <span class="step__ico" aria-hidden="true"><span class="step__n">3</span><svg class="ico"><use href="#i-forms"/></svg></span>
+          <h3 class="step__title"><span class="vh">Шаг 3. </span>Заполните заявку</h3>
+          <p class="step__text">Анкета занимает несколько минут — обычно нужен только паспорт.</p>
+        </li>
+        <li class="step">
+          <span class="step__ico" aria-hidden="true"><span class="step__n">4</span><svg class="ico"><use href="#i-truck"/></svg></span>
+          <h3 class="step__title"><span class="vh">Шаг 4. </span>Получите карту или деньги</h3>
+          <p class="step__text">Карту привезёт курьер или выдадут в отделении, займ придёт на карту.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <div class="dark band">
+    <section class="sec promo" aria-labelledby="promo-title">
+      <div class="wrap promo__in">
+        <div class="promo__text reveal">
+          <h2 class="h2" id="promo-title">Сколько стоит подбор</h2>
+          <div class="price">
+            <p class="price__title" data-brand>CardStart</p>
+            <ul class="price__list" id="price-list" role="list">
+              <li>15 дебетовых карт</li>
+              <li>8 кредитных карт</li>
+              <li>24 займа в МФО</li>
+              <li>Переход на официальный сайт партнёра</li>
+              <li>Без комиссий и регистрации</li>
+            </ul>
+            <p class="price__sum"><span class="price__num">0&nbsp;₽</span><span class="price__note">подбор и переход к партнёру</span></p>
+            <p class="price__cta">
+              <a class="btn btn--block" href="#debit" data-first-cat>Выбрать карту</a>
+              <a class="btn btn--line btn--block" href="#mfo" data-mfo-link>Займы онлайн</a>
+            </p>
+          </div>
+        </div>
+        <div class="promo__art" aria-hidden="true">
+        <div class="pcard pcard--psb">
+          <span class="pcard__sheen"></span>
+          <span class="pcard__top"><img src="img/logos/psb.png" alt="" width="34" height="34"><span class="pcard__bank">ПСБ</span></span>
+          <span class="pcard__chip"></span>
+          <svg class="pcard__nfc" viewBox="0 0 24 24"><path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5.2 9.6a3.5 3.5 0 0 1 0 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="pcard__num">2200 •••• •••• 7781</span>
+          <span class="pcard__row"><span class="pcard__name">CARDHOLDER NAME</span><span class="pcard__kind">CREDIT</span></span>
+        </div>
+        <div class="pcard pcard--ozon">
+          <span class="pcard__sheen"></span>
+          <span class="pcard__top"><img src="img/logos/ozon.png" alt="" width="34" height="34"><span class="pcard__bank">Ozon Банк</span></span>
+          <span class="pcard__chip"></span>
+          <svg class="pcard__nfc" viewBox="0 0 24 24"><path d="M8.5 7.5a7 7 0 0 1 0 9M12 5a10.5 10.5 0 0 1 0 14M5.2 9.6a3.5 3.5 0 0 1 0 4.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <span class="pcard__num">2200 •••• •••• 9999</span>
+          <span class="pcard__row"><span class="pcard__name">CARDHOLDER NAME</span><span class="pcard__kind">DEBIT</span></span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec why" aria-labelledby="why-title">
+      <div class="wrap">
+        <h2 class="h2 h2--center reveal" id="why-title">Почему нам доверяют</h2>
+        <ul class="why__list reveal" role="list">
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bank"/></svg><p>Только официальные сайты банков и МФО — заявку принимает сам партнёр</p></li>
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-free"/></svg><p>Подбор бесплатный: никаких комиссий и предоплат за переход</p></li>
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><p>Не собираем паспортные данные и телефоны — анкета только у партнёра</p></li>
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-grid"/></svg><p><span data-total>47</span> <span data-total-word>предложений</span> в трёх разделах — не нужно обходить сайты банков</p></li>
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><p>Заявка онлайн в любое время — с телефона или компьютера</p></li>
+          <li class="why__item"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-cal"/></svg><p>Условия проверены <span data-updated>12.11.2026</span> — актуальные детали на сайте партнёра</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <h2 class="h2 h2--center h2--bar" id="faq-title">Часто задаваемые вопросы</h2>
+        <p class="faq__lead">Если не нашли ответ на свой вопрос — посмотрите условия на сайте банка или МФО: там они всегда точнее.</p>
+        <div class="faq__cols">
+          <div class="faq__col">
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Сколько стоит пользоваться сайтом?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Нисколько. Сравнивать предложения и переходить на сайты банков и МФО можно бесплатно — условия продукта у партнёра такие же, как если бы вы пришли к нему напрямую.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Вы банк или МФО?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Нет. Мы собираем предложения партнёров на одной странице. Карты открывают банки, займы выдают микрофинансовые организации — они же принимают решение по заявке.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Как оформить карту или займ?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Выберите предложение и нажмите кнопку на карточке — откроется официальный сайт банка или МФО. Там заполните заявку: обычно нужен только паспорт.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Какие нужны документы?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Для дебетовой карты и займа обычно достаточно паспорта. Для кредитной карты банк может попросить подтвердить доход. Иностранным гражданам — паспорт и документы о пребывании в России: точный список на сайте банка.</p></div>
+        </details>
+          </div>
+          <div class="faq__col">
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Как быстро я получу карту или деньги?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Займ часто приходит на карту в день заявки. Карту банк доставляет курьером или выдаёт в отделении — срок зависит от банка и вашего города.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Куда уходят мои данные?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Сайт не собирает паспортные данные и телефоны. Анкету вы заполняете на сайте банка или МФО, и данные обрабатывает он по своим правилам.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Почему могут отказать?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>Решение принимает банк или МФО по своей оценке: учитываются кредитная история, доход и текущая нагрузка. Если отказали в одном месте, можно подать заявку в другое.</p></div>
+        </details>
+          <details class="qa">
+          <summary><span class="qa__row"><span class="qa__q">Где посмотреть точные условия?</span><span class="qa__ico" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></span></span></summary>
+          <div class="qa__a"><p>На сайте банка или МФО, куда ведёт кнопка. Условия меняются, а окончательные — ставка, лимит, тариф, полная стоимость — указываются в договоре.</p></div>
+        </details>
+          </div>
+        </div>
+        <p class="faq__cta">
+          <a class="btn btn--lg" href="#offers" data-faq-cta>Смотреть предложения</a>
+        </p>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div class="foot__about">
+        <a class="brand brand--foot" href="#top" aria-label="CardStart — в начало страницы">
+          <span class="brand__mark" aria-hidden="true"><svg class="ico"><use href="#i-card"/></svg></span>
+          <span class="brand__word" data-brand>CardStart</span>
+        </a>
+        <p>Витрина предложений банков и МФО: дебетовые и кредитные карты, займы на карту онлайн.</p>
+        <p class="foot__tg" data-telegram hidden><a class="tglink" href="https://t.me/"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tg"/></svg><span>Связаться в Telegram: <span data-tg-name class="tglink__name"></span></span></a></p>
+      </div>
+      <nav class="foot__nav" aria-label="В подвале">
+        <ul role="list" id="foot-nav-list">
+          <li data-nav-cat><a href="#debit">Дебетовые карты</a></li>
+          <li data-nav-cat><a href="#credit">Кредитные карты</a></li>
+          <li data-nav-cat><a href="#mfo">МФО</a></li>
+          <li data-nav-static><a href="#steps">Как оформить</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+          <li><a href="privacy.html">Политика обработки данных</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="foot__legal">
+      <p>Сайт не является банком, микрофинансовой организацией или кредитным брокером и не принимает решений о выдаче карт и займов. Информация на сайте носит справочный характер и не является публичной офертой. Точные условия — на сайте партнёра и в договоре.</p>
+      <p>Ссылки на карточках — реклама партнёров. Перед оформлением оцените свои возможности: просрочка платежей увеличивает долг и портит кредитную историю.</p>
+      <p class="foot__copy"><span>© 2026 <span data-brand>CardStart</span>. Все права защищены</span><span>Условия проверены <span data-updated>12.11.2026</span></span></p>
+    </div>
+  </div>
+</footer>
+
+<script>if(typeof OFFERS==="undefined"){document.write('<script src="data.js?t='+Date.now()+'"><\/script>');}</script>
+<script src="js/app.js?v=20261113061045"></script>
+</body>
+</html>
